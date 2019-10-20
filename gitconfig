@@ -27,3 +27,8 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[user]
+	name = Markus Kuhnt
+	email = markus@kuhnt.gmbh
+[diff "sopsdiffer"]
+	textconv = sops -d
